@@ -1,0 +1,446 @@
+<!--- Author: Steve Saucedo
+Website: Sautek.biz,  Sautek Paintball
+Date: 5/1/140
+----->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sautek Paintball</title>
+
+<!--- Tracking for google analytics starts--->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35313195-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--- Tracking for google analytics ends---->
+
+<!-- Favicon in the corner of the page -->
+<link rel="icon" type="image/png" href="files for logo sautek/favicon.ico">
+
+	<script src="modernizr-2.7.js" type="text/javascript"></script>
+	<link href="sautek.css" type="text/css" rel="stylesheet">
+	
+<!-- Link to BXSlider jQuery gallery here: bxslider.com-->
+<link href="js/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<!-- Insert jQuery Library -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Link to bxslider library -->
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+
+<!-----vertical Navigation bar query start here------->
+<link href="/menu_source/styles.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+<!------Vertical Nav. End here------------------------->
+
+
+<!---- Horizontal Navigation bar query start here----->
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+	<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script type='text/javascript' src='menu_jquery.js'></script>
+<!---- Horizontal Nav. End Here  ----------->
+
+
+<!--- Javascript for bxslider start here------>
+<script type="text/javascript">
+//document.ready statement
+	$(document).ready(function() {
+	
+	//code specific to gallery
+	$('.bxslider').bxSlider({
+		auto:true,
+		mode: 'fade',
+		captions:true,
+		autoControls:true
+	}); //close bxslider here
+	
+	$('#downFont').click(function(){
+	
+	curSize = parseInt($('#mainContent').css('font-size')) - 2;
+	
+	if(curSize>=12){
+	$('#mainContent').css('font-size',curSize);
+	}//end conditional statement
+	});//close downFont event here
+	
+	//increase font function
+	$('#upFont').click(function(){
+	
+	curSize = parseInt($('#mainContent').css('font-size')) + 2;
+	
+	if(curSize<=24){
+	$('#mainContent').css('font-size',curSize).css('line-height');
+	}//end conditional statement
+	});//close upFont event here
+	
+	});//end document.ready statement here
+
+</script>
+<!--------- Bxslider javascript ends here --------->
+
+<!----------------picture window javascript start here---------------->
+<link rel="stylesheet" href="lightbox/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="lightbox/lightbox.js"></script>
+<!------------------picture window javascript ends here----------------->
+
+
+</head>	
+
+<body>
+<div id="container">
+
+	<header>
+
+	<a href="index.htm"> <img src="images/logo4.png" alt="sautek paintball"> </a>
+	
+	<div id="name">
+	<p><img src="images/webname.png" alt="sautek paintball"/></p>
+	</div>
+	
+	<!-- PayPal Logo -->
+	<div id="toplogo">
+	<table border="0" cellpadding="10" cellspacing="0" align="center"><tr>
+	<td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/webapps/mpp/paypal-popup" 
+	title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup',
+	'WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, 
+	width=1060, height=700'); return false;">
+	<img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg" border="0" 
+	alt="PayPal Logo"></a></td></tr></table>
+	</div>
+	<!-- PayPal Logo -->
+	
+	<!--- PayPal view my cart starts here ----->
+	<div id="cart">
+	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+	">
+	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+	<!----PayPal view my cart end here ------>
+	
+	<!-------------search engine google starts here------------>
+	<div id="search">
+<script>
+  (function() {
+    var cx = '006072998133186340072:p5wweat4dyw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+	</div>
+	<!--------------search engine ends here-------------------->
+
+</header>
+
+<!---- horizontal CSS menu starts here ---------------------------------------->
+	<nav class="horizontal">
+		<div id='cssmenu2'>
+	<ul>
+		<li class='active'><a href='index.htm'><span>Home</span></a></li>
+		<li class='active has-sub'><a href='markers.htm'><span>Markers</span></a>
+			<ul>
+			<li><a href='airrowgun.htm'><span>Airrow Gun</span></a></li>
+			<li><a href='boblong.htm'><span>Bob Long</span></a></li>
+			<li><a href='bt.htm'><span>BT</span></a></li>
+			<li><a href='cciphantom.htm'><span>CCI Phantom</span></a></li>
+			<li><a href='dp.htm'><span>Dangerous Power</span></a></li>
+			<li><a href='dye.htm'><span>DYE</span></a></li>
+			<li><a href='gog.htm'><span>GOG</span></a></li>
+			<li><a href='eclipse.htm'><span>Eclipse</span></a></li>
+			<li><a href='tacamo.htm'><span>Tacamo</span></a></li>
+			<li><a href='jt.htm'><span>JT</span></a></li>
+			<li><a href='kingman.htm'><span>Kingman</span></a></li>
+			<li><a href='proto.htm'><span>Proto</span></a></li>
+			<li><a href='tippman.htm'><span>Tippman</span></a></li>
+			<li><a href='empire.htm'><span>Empire</span></a></li>
+			<li><a href='tiberius.htm'><span>Tiberius</span></a></li>
+			<li><a href='usarmy.htm'><span>U.S Army</span></a></li>
+			<li class='last'><a href='Valken.htm'><span>Valken</span></a></li>
+			</ul>
+		</li>
+   <li class='active has-sub'><a href='paintballs.htm'><span>Paintball</span></a>
+      <ul>
+         <li><a href='corepaintballs.htm'><span>Core Paintballs</span></a></li>
+         <li><a href='draxxuspaintballs.htm'><span>Draxxus Paintballs</span></a></li>
+         <li><a href='evilpaintballs.htm'><span>Evil Paintballs</span></a></li>
+         <li><a href='kingmanpaintballs.htm'><span>Kingman Paintballs</span></a></li>
+         <li><a href='nelsonpaintballs.htm'><span>Nelson Paintballs</span></a></li>
+         <li><a href='50caliber.htm'><span>50 caliber</span></a></li>
+         <li><a href='vballstargetsystem.htm'><span>V balls target system</span></a></li>
+         <li><a href='paintballsgrenades.htm'><span>Paintballs Grenades and Mines</span></a></li>
+         <li class='last'><a href='practicepaintballs.htm'><span>Practice Paintballs</span></a></li>
+      </ul>
+   </li>
+ <li class='active has-sub'><a href='masks.htm'><span>Masks</span></a>
+      <ul>
+         <li><a href='dyemasks.htm'><span>DYE Mask</span></a></li>
+         <li><a href='empiremsks.htm'><span>Empire Mask</span></a></li>
+         <li><a href='jtusamaks.htm'><span>JT USA Mask</span></a></li>
+         <li><a href='protomasks.htm'><span>Proto Mask</span></a></li>
+         <li><a href='savephasemasks.htm'><span>Save Phase Mask</span></a></li>
+         <li><a href='slymasks.htm'><span>Sly Masks</span></a></li>
+         <li><a href='tippmannmasks.htm'><span>Tippman Masks</span></a></li>
+         <li><a href='vforcemasks.htm'><span>V-Force Masks</span></a></li>
+         <li><a href='virtuemasks.htm'><span>Virtue Masks</span></a></li>
+         <li><a href='lenscleaning.htm'><span>Lens Cleaning</span></a></li>
+         <li><a href='gogglefans.htm'><span>Goggle Fans</span></a></li>
+         <li class='last'><a href='goggleacesories.htm'><span>Goggle Skins and Accesories</span></a></li>
+      </ul>
+   </li>
+   <li class='active has-sub'><a href='tanks.htm'><span>Tanks</span></a>
+      <ul>
+         <li><a href='co2tanks.htm'><span>CO2 Tanks</span></a></li>
+         <li><a href='n2airsystmes.htm'><span>N2 Air Systems</span></a></li>
+         <li><a href='12gramco2systems.htm'><span>12 gram CO2 Systems</span></a></li>
+         <li><a href='asabottompnes.htm'><span>ASA/ Bottompnes</span></a></li>
+         <li><a href='tankaccesories.htm'><span>Tank Accesories</span></a></li>
+         <li><a href='dropforwardscraddle.htm'><span>Drop Forwards and Craddles</span></a></li>
+         <li><a href='expansionchambers.htm'><span>Expansion Chambers</span></a></li>
+         <li><a href='fillstations.htm'><span>Fill stations</span></a></li>
+         <li><a href='regulators.htm'><span>Regulators</span></a></li>
+         <li><a href='remotes.htm'><span>Remotes</span></a></li>
+         <li class='last'><a href='tankscovers.htm'><span>Tank & Bottle Covers</span></a></li>
+      </ul>
+   </li>
+   <li class='active has-sub'><a href='protectivegear.htm'><span>Protective Gear</span></a>
+      <ul>
+         <li><a href='accesories.htm'><span>Accesories</span></a></li>
+         <li><a href='gloves.htm'><span>Gloves</span></a></li>
+         <li><a href='headwear.htm'><span>Headwear</span></a></li>
+         <li><a href='hoodies.htm'><span>Hoodies & Sweatshirts</span></a></li>
+         <li><a href='jerseys.htm'><span>Jerseys</span></a></li>
+         <li><a href='pants.htm'><span>Pants</span></a></li>
+         <li><a href='protection.htm'><span>Protection</span></a></li>
+         <li><a href='tshirts.htm'><span>T-shirts</span></a></li>
+         <li><a href='camogear.htm'><span>Camo Gear</span></a></li>
+         <li class='last'><a href='gearbybrand.htm'><span>Gear by brand</span></a></li>
+      </ul>
+   </li>
+   <li class='active last'><a href='contactUs.htm'><span>Contact us</span></a></li>
+</ul>
+</div>
+	</nav>
+	
+	<!--- Horizontal CSS menu ends here-------------------------------------->
+	
+	<!---- Created CSS vertical menu Starts here ------------------------------------>
+	<nav class="vertical">
+		<div id='cssmenu'>
+	<ul>
+		<li class='has-sub'><a href='markers.htm'><span>Markers</span></a>
+			<ul>
+			<li><a href='airrowgun.htm'><span>Airrow Gun</span></a></li>
+			<li><a href='boblong.htm'><span>Bob Long</span></a></li>
+			<li><a href='bt.htm'><span>BT</span></a></li>
+			<li><a href='cciphantom.htm'><span>CCI Phantom</span></a></li>
+			<li><a href='dp.htm'><span>Dangerous Power</span></a></li>
+			<li><a href='dye.htm'><span>DYE</span></a></li>
+			<li><a href='gog.htm'><span>GOG</span></a></li>
+			<li><a href='eclipse.htm'><span>Eclipse</span></a></li>
+			<li><a href='tacamo.htm'><span>Tacamo</span></a></li>
+			<li><a href='jt.htm'><span>JT</span></a></li>
+			<li><a href='kingman.htm'><span>Kingman</span></a></li>
+			<li><a href='proto.htm'><span>Proto</span></a></li>
+			<li><a href='tippman.htm'><span>Tippman</span></a></li>
+			<li><a href='empire.htm'><span>Empire</span></a></li>
+			<li><a href='tiberius.htm'><span>Tiberius</span></a></li>
+			<li><a href='usarmy.htm'><span>U.S Army</span></a></li>
+			<li class='last'><a href='valken.htm'><span>Valken</span></a></li>
+			</ul>
+		</li>
+   <li class='has-sub'><a href='paintballs.htm'><span>Paintball</span></a>
+      <ul>
+         <li><a href='corepaintballs.htm'><span>Core Paintballs</span></a></li>
+         <li><a href='draxxuspaintballs.htm'><span>Draxxus Paintballs</span></a></li>
+         <li><a href='evilpaintballs.htm'><span>Evil Paintballs</span></a></li>
+         <li><a href='kingmanpaintballs.htm'><span>Kingman Paintballs</span></a></li>
+         <li><a href='nelsonpaintballs.htm'><span>Nelson Paintballs</span></a></li>
+         <li><a href='50caliber.htm'><span>50 caliber</span></a></li>
+         <li><a href='vballstargetsystem.htm'><span>V balls target system</span></a></li>
+         <li><a href='paintballsgrenades.htm'><span>Paintballs Grenades and Mines</span></a></li>
+         <li class='last'><a href='practicepaintballs.htm'><span>Practice Paintballs</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>Masks</span></a>
+      <ul>
+         <li><a href='dyemasks.htm'><span>DYE Mask</span></a></li>
+         <li><a href='empiremsks.htm'><span>Empire Mask</span></a></li>
+         <li><a href='jtusamaks.htm'><span>JT USA Mask</span></a></li>
+         <li><a href='protomasks.htm'><span>Proto Mask</span></a></li>
+         <li><a href='savephasemasks.htm'><span>Save Phase Mask</span></a></li>
+         <li><a href='slymasks.htm'><span>Sly Masks</span></a></li>
+         <li><a href='tippmannmasks.htm'><span>Tippman Masks</span></a></li>
+         <li><a href='vforcemasks.htm'><span>V-Force Masks</span></a></li>
+         <li><a href='virtuemasks.htm'><span>Virtue Masks</span></a></li>
+         <li><a href='lenscleaning.htm'><span>Lens Cleaning</span></a></li>
+         <li><a href='gogglefans.htm'><span>Goggle Fans</span></a></li>
+         <li class='last'><a href='goggleacesories.htm'><span>Goggle Skins and Accesories</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>Tanks</span></a>
+      <ul>
+         <li><a href='co2tanks.htm'><span>CO2 Tanks</span></a></li>
+         <li><a href='n2airsystmes.htm'><span>N2 Air Systems</span></a></li>
+         <li><a href='12gramco2systems.htm'><span>12 gram CO2 Systems</span></a></li>
+         <li><a href='asabottompnes.htm'><span>ASA/ Bottompnes</span></a></li>
+         <li><a href='tankaccesories.htm'><span>Tank Accesories</span></a></li>
+         <li><a href='dropforwardscraddle.htm'><span>Drop Forwards and Craddles</span></a></li>
+         <li><a href='expansionchambers.htm'><span>Expansion Chambers</span></a></li>
+         <li><a href='fillstations.htm'><span>Fill stations</span></a></li>
+         <li><a href='regulators.htm'><span>Regulators</span></a></li>
+         <li><a href='remotes.htm'><span>Remotes</span></a></li>
+         <li class='last'><a href='tankscovers.htm'><span>Tank & Bottle Covers</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub last'><a href='#'><span>Protective Gear</span></a>
+      <ul>
+         <li><a href='accesories.htm'><span>Accesories</span></a></li>
+         <li><a href='gloves.htm'><span>Gloves</span></a></li>
+         <li><a href='headwear.htm'><span>Headwear</span></a></li>
+         <li><a href='hoodies.htm'><span>Hoodies & Sweatshirts</span></a></li>
+         <li><a href='jerseys.htm'><span>Jerseys</span></a></li>
+         <li><a href='pants.htm'><span>Pants</span></a></li>
+         <li><a href='protection.htm'><span>Protection</span></a></li>
+         <li><a href='tshirts.htm'><span>T-shirts</span></a></li>
+         <li><a href='camogear.htm'><span>Camo Gear</span></a></li>
+         <li class='last'><a href='gearbybrand.htm'><span>Gear by brand</span></a></li>
+      </ul>
+   </li>
+</ul>
+</div>
+	</nav>
+	<!---- Created CSS Menu ends here ------>
+	
+	
+<!-------------------- PayPal Logo starts here-------------------------------------------->
+	<div id="paypallogo">
+	<table border="0" cellpadding="10" cellspacing="0" align="center">
+	<tr><td align="center"></td></tr><tr><td align="center">
+	<a href="https://www.paypal.com/webapps/mpp/paypal-popup" 
+	title="How PayPal Works" onclick="javascript:window.open
+	('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, 
+	location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, 
+	width=1060, height=700'); return false;">
+	<img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/Security_Banner_120x90_4a.gif" 
+	border="0" alt="PayPal Logo"></a></td></tr></table>
+	
+	</div>
+<!------------------------- PayPal Logo ends here------------------------------------------>
+	
+	
+
+<!------------Wrapper Starts Here ----------->
+	<div id="wrapper">
+	
+	<div id="productimage">
+	<a href="images/USarmyAlphaBlackElite.jpg" rel="lightbox"><img src="images/USarmyAlphaBlackElite.jpg" alt="Trasure Map" width="350" height="350" class="rtImage"></a>
+	</div>
+	
+	<!--Box on the right for checkout--->
+	<div id="checkout">
+	<a><center>US Army Alpha Black Elite Paintball Marker </center></a>
+	
+	<hr></hr>
+	<div id ="priceinfo">
+	<h3><strike> Regular Price: $139.99</strike></h3>
+	<h4>Sale Price: $130.00</h4> 
+	
+	
+	<div id="paypalbutton">
+	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="58965VSMXUR2E">
+	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>	
+	</div>
+	</div>
+	<hr></hr>
+	
+	<h6>Related Items: </h6>
+	<a href="paintballs.htm"><img src="images/valkenredemption.jpg" alt="Trasure Map" width="150" height="150" class="rtImage"></a>
+	</div>
+
+	
+	
+	<div id="infobox">
+	<h4>Product Info</h4>
+	<hr></hr>
+	<p><b>Go into paintball combat prepared with the  Alpha Black Elite Paintball Gun!</b></p>
+
+	<p>Prepare to take on your paintball opponents! The Alpha Black Elite from Tippmann is the successor to the popular Alpha Black. The Alpha Black was originally designed to be a simple, no nonsense milsim paintball marker on its own but players immediately wanted to adapt and modify it with other upgrades. The Elite model was engineered to make it faster and easier for players to mod and accessorize their marker.</p>
+	<p>Built for US Army by Tippmann, the Alpha Black Elite uses the proven 98 Custom internals for reliable performance in the worst of conditions. The cast aluminum body is built to withstand all the abuse the rocks and trees of the woodsball field can dish out. Unlike the old Alpha Black, the Elite will accept the Alpha Black E-Grip, Tippmann 98 Response Trigger and Cyclone feed System. The design incorporates a 7/8" tactical rail on the receiver and comes with a removable carry handle with rear sight. The barrel shroud now has a bottom forward 7/8" rail for convenient mounting of bipods, flashlights, lasers, etc. The Alpha Black Elite gives you more options to mod your marker for the future!</p>
+	<p><b>Real Player Review of the Alpha Black</b></p>
+
+	<p>Every kid dreams of playing army… Being able to go out, geared up in their favorite army outfit, and shoot guns. One of the big draws of paintball is the ability to actually SHOOT your friends, and watch them actually laugh about it, as the paint wipes right off after the game! The stories you will have playing with your friends will last a lifetime! So get out there and play some paintball and make some memories!</p>
+
+	<p>The Tippmann Alpha Black is often the weapon of choice for new paintballers, and the reason why is pretty simple. It looks like a REAL gun! Based on the most popular paintball gun of all time (the Tippmann 98 custom) the internals on the Alpha Black are classic blowback goodness. These internals WORK, and with a little bit of extra work on your end (polishing the internals, and keeping high quality O-rings inside), you can make this marker perform very well (mine all run +/- 3fps between shots even when using Co2!). Compressed air or Co2 tanks can be used on this marker, but I always recommend a remote line for this style of marker, as it keeps the weight of the tank off the gun, and on your back! If you decide to go this route, makes sure your remote line has a slide check so you can air it off the gun, without airing off the tank, and you will need to get a tank/pod holder to strap to your body.</p>
+
+	<p>The receiver of this gun is aluminum, making it HIGHLY durable! It has a mock mag that houses tools for your marker, and can be removed by pushing in the push pin that holds it in place. And it has a shroud up front that the barrel installs inside of. It also has a cool adjustable stock in the back, so that you can push it in or out to fit your perfect shoulder rest for your weapon!</p>
+
+	<p>The Alpha Black Elite comes with a removable repositionable handle, and it has a picatinny rail at the bottom for lights or other accessories. It has a nice stock on the back that can move in and out based on preference. The airline (steel braided) runs under the handle, and steel tanks will fit under the stock.</p>
+
+	<p>Barrels are typically the first upgrades done to markers, and with the Elite you will need a longer than normal barrel as the shroud is pretty long. Make sure you measure your shroud when you get it in to make sure new barrels will fit. I have mine outfitted with an Apex barrel system, and the smaller 14 inch version doesn’t fit with the shroud, so I went with the 18 inch Apex 2 which fits fine inside the shroud.</p>
+
+	<p>Other upgrades include the ability to make it mag-fed with the Tippmann 98 Magfed adapter, or you can put a cyclone feed system on it. You can also upgrade to an e-trigger or response trigger. With the Elite model, you can remove the grip on the top and add sights or other cool looking accessories.</p>
+
+	<p>So, if you want a reliable marker that looks like a real gun, the Tippmann Alpha Black Elite may be for you! Just remember that it is a little heavier than other smaller markers as it has a large footprint like a real gun! But, if you don’t have sissy arms, it may be perfect for you! Just remember to always wear your mask when around paintball guns, and most of all, Tippmann products are made very well so you can spend your time PLAYING, instead of working on them!</p>
+	<p><b>Alpha Black Elite features:</b></p>
+	<p>- .68 caliber</p>
+	<p>- All aluminum cast body for extreme durability</p>
+	<p>- Proven Tippmann 98 Custom internals</p>
+	<p>- Heavy duty stainless steel braided airline</p>
+	<p>- Quick release hinged feed elbow</p>
+	<p>- 6 position collapsible stock</p>
+	<p>- Compatible with E-Grip, Response Trigger and Cyclone Feed Systems</p>
+	<p>- Removable mock magazine with interior tool storage</p>
+	<p>- Removable M4-style carry handle with rear sight</p>
+	<p>- Cast 7/8" picatinny body rail</p>
+	<p>- 11" 98 Custom threaded barrel</p>
+	<p>- M4 barrel shroud with raised front sight and bottom 7/8" tactical rail </p>
+
+	</div>
+	</div>
+<!------------- Wrapper Ends here ---------->
+<footer>
+
+<p>You can contact the <a href=mailto:"steve@sautekpaintball.com"Subject=Hello%20again" target="_top">
+webmaster.</a><p>
+
+<address>
+&copy; 2014 Sautek Paintball
+</address>
+
+
+</footer>
+<!------------------------ PayPal Logo starts here---------------------------------------
+	<table border="0" cellpadding="10" cellspacing="0" align="center"><tr>
+	<td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/webapps/mpp/paypal-popup" 
+	title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup',
+	'WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, 
+	width=960, height=500'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_SbyPP_mc_vs_dc_ae.jpg" 
+	border="0" alt="PayPal Acceptance Mark"></a></td></tr></table>
+<!------------------------- PayPal Logo ends here --------------------------------------->
+
+
+</div> <!-- close the container -->
+</body>
+	
+</html>
